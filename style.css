@@ -1,0 +1,158 @@
+/* Martha Elena García Ramos A01139413*/
+
+h1{
+  text-align: center;
+  background-color: #e48491;
+  margin:0;
+  padding: 10px;
+  color: white;
+}
+
+.headerInfo{
+  text-align: center;
+  background-color: #e48491;
+  margin:0;
+  padding: 10px;
+  color: white;
+}
+
+.menubar{
+  background-color: #f2c3c9;
+  overflow : auto;
+  list-style : none; /*to get rid of the bullets of a list*/
+  margin:0;
+  padding:0;
+}
+
+.menubuttons{
+  float : left;
+  padding:20px;
+}
+
+.menubuttons:hover{ 
+  background-color: #CCCCCC;
+  color:white;
+  cursor: pointer;
+}
+
+body{
+  font-family : Tahoma,  sans-serif;
+  font-size : 15px;
+  color : #19353b;
+    
+  margin : 0;
+  padding: 0;
+}
+
+h4{
+  color: #574143;
+  margin:0;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+h5{
+  padding-left: 30px;
+}
+
+p{
+  padding-left: 30px;
+  padding-right:30px;
+}
+
+legend{
+  font-weight : bold;
+}
+
+fieldset{
+  border:2px dashed #DDDDDD;
+  margin:10px;
+  padding:20px;
+}
+
+fieldset > span {
+  text-align: center;
+  background-color: #cbeeead8;
+  color: #42726b;
+  margin-bottom: 15px;
+  padding: 10px 10px; 
+  border: 1px solid #76cdc1;
+  display: block;
+}
+
+.formElement{
+  margin: 10px;
+  padding: 5px 10px;
+  width: 300px;  
+}
+
+.clickable{
+  padding: 10px 20 px;
+  margin-left: 15px;
+  color: white;
+  border: 0;
+  font-size: 16px;
+  border-radius: 5px;
+  width:100px;
+}
+
+.clickable:hover{
+  cursor: pointer;
+  opacity: 0.8;
+} 
+
+.submit-btn{
+  background-color: #e48491;
+}
+
+footer{
+  padding: 20px;
+}
+
+fieldset:hover{
+    background-color: #fdf9f9;
+    color: #555555;
+}
+
+img{ 
+  float: left; 
+  margin: 5px;
+}
+
+/* Responsive Design */
+*{
+    box-sizing: border-box;
+}
+
+main-container{
+    overflow: auto;
+}
+
+/*for devices*/
+@media (min-width: 0px) and (max-width: 599px) {
+    main {
+      width: 100%;
+      margin: 0;
+      font-size: 18px;
+    }
+  }
+/*for tablets*/
+@media (min-width:600px) and (max-width:990px){
+    .left-side, .right-side{
+        width:500%;
+        float:left;
+    }
+}
+
+/*for largers screens*/
+@media (min-width:991px){
+    .left-side, .right-side{
+        float:left;
+    }
+    .left-side{
+        width:30%;
+    }
+    .right-side{
+        width:70;
+    }
+}
